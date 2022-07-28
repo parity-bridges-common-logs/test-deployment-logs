@@ -1,0 +1,596 @@
++ sleep 15
++ RELAY_ACCOUNT=//Westend.HeadersRelay1
++ /home/user/substrate-relay init-bridge westend-to-millau --source-host westend-rpc.polkadot.io --source-port 443 --source-secure --target-host millau-node-alice --target-port 9944 --target-signer //Westend.GrandpaOwner
+[1;38;5;8m2022-07-28 05:01:41 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Westend node at wss://westend-rpc.polkadot.io:443
+[1;38;5;8m2022-07-28 05:01:41 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[1;38;5;8m2022-07-28 05:01:41 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Millau node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-28 05:01:51 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[1;38;5;8m2022-07-28 05:01:51 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Millau node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-28 05:02:01 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Selected Westend initial header: 11913794/0xe050…8959
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Selected Westend initial authorities set: [(Public(6722194f01fe5d2f7e6619f1b8543fea7911f86ee970365f69ca4c9d6b4b84dc (5EPvvEyH...)), 1), (Public(5fbf67e08c894d0932b95cae625304afad76822a7ca41fcc457bf75eab4347a7 (5EEFGMix...)), 1), (Public(451292228be0938a38f8e637c58247f5313dc1f841c87066d10655679acd116b (5DdGgGhS...)), 1), (Public(43d71b0f055503aa7df81b9fabcbd4089bf37ce464b2da2eab65491a2e385d0c (5Dbexw6u...)), 1), (Public(ec647b98a448985236125fc541187acdb414bc419c08aa0e13555d142db83e06 (5HQf1Pjw...)), 1), (Public(174e1334b1e472d1e9a20868e03c5382cae6b29499282131b6d22f5ce21c488b (5CbG9kMS...)), 1), (Public(6b557ff5b609d5153eaf0d7744512a84632e4ecbfa29a628a7f9b2eac488ffe6 (5EVSNyAj...)), 1), (Public(220f6b4cadac2d20021f4dee5dde927389df316c9caae3245e7ea7f8f574262d (5CqN4mCs...)), 1), (Public(123baf35960c39562fbf7a007f9fd08e049c8ce9e7efec961b4754006f505e97 (5CUcSztP...)), 1), (Public(69474f54eabdf64116d55bda81b247f458d6b7375dfdcddd7cceabab0144cec2 (5ESk4vk1...)), 1), (Public(dd33c2afe227a9de90a606a57d02fbec67d0d05feede35624dcb841c45f97538 (5H4jpGU4...)), 1), (Public(edb6cd5cfeacd90d739e0cf5bf76c059f235861cbd100095e5e51f17afec0ef2 (5HSPWVyt...)), 1), (Public(545e96cc5e9990ae6bde5c491a61ad34c54771c9366118a06c1d7f06a98cae69 (5DyKyhEd...)), 1), (Public(8a35040b00fde1ceac66fa8e0ed190681bc68e8f5c251e613436f348f5bccee5 (5FBvDNvS...)), 1), (Public(0be29d71d34b45ab31a6c8af08afd68dae14d0eca466c1f0d77e07005b32c3c0 (5CLHhhr4...)), 1), (Public(69dd4442957ac58634b7dca238fe8966ca5be97404013edc9de56169d2412968 (5ETWcd2u...)), 1)]
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 0
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 1
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 2
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 3
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 4
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 5
+[1;38;5;8m2022-07-28 05:02:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying Westend GRANDPA authorities set id: 6
+--
+[1;38;5;8m2022-07-28 05:25:44 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10027575492858887, memory=17784832
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:47 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11914030 of 11914030 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11914030; 11914030]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:53 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11914030; 11914032]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11914032); Some(11914032)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11914031; 11914032]. Proofs range: [11914032; 11914032].Trying to improve to: 11914032. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11914032 to Millau
+[1;38;5;8m2022-07-28 05:25:54 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":2140}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":2140}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11914032; 11914032]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 05:25:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10020039975643158, memory=17784832
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:26:00 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11914032 of 11914032 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:26:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11914032; 11914032]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:26:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:26:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 05:26:04 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1000250056385994, memory=17784832
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 05:26:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11914033; 11914034]
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:13:48 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11916308 of 11916308 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:13:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916308; 11916308]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:13:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:13:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 09:13:56 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1002129539847374, memory=20742144
+[1;38;5;8m2022-07-28 09:14:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20742144
+[1;38;5;8m2022-07-28 09:14:16 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20742144
+[1;38;5;8m2022-07-28 09:14:26 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20742144
+[1;38;5;8m2022-07-28 09:14:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20742144
+[1;38;5;8m2022-07-28 09:14:46 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20742144
+[1;38;5;8m2022-07-28 09:14:50 +00[0m [1;38;5;9mERROR[0m [38;5;8mjsonrpsee_core::client::async_client[0m Error: Connection(Closed) terminating client
+[1;38;5;8m2022-07-28 09:14:50 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Westend justification subscription stream has returned None. Stream needs to be restarted.
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:14:50 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Source(RpcError(RestartNeeded("Networking or low-level protocol error: WebSocket connection error: connection closed")))
+[1;38;5;8m2022-07-28 09:14:56 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10027575492858887, memory=20742144
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:00 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Westend node at wss://westend-rpc.polkadot.io:443
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:01 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Restarting relay loop
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:01 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11916308 of 11916321 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:01 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916308; 11916321]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 13 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 09:15:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.2002503126859665, memory=20099072
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916308; 11916322]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:15:09 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 14 Westend headers. Selected finality proof for header: None
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11916413); Some(11916413)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11916413; 11916413]. Proofs range: [11916413; 11916413].Trying to improve to: 11916413. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:17 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11916413 to Millau
+[1;38;5;8m2022-07-28 09:24:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x75c2b00be3b7b80cbcdbe6d763c184a7b9fceb95077917a8db579fbf2d1710ec009ad51b6b4fb8f0b9e90155dbf2cff759ef956108b0ffe9013d369b0e38ba5d
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11916413 of 11916415 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916413; 11916415]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11916414); Some(11916415)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11916414; 11916415]. Proofs range: [11916414; 11916415].Trying to improve to: 11916415. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11916415 to Millau
+[1;38;5;8m2022-07-28 09:24:24 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":23186}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":23186}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916415; 11916415]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 09:24:26 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10018785297870636, memory=20099072
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916415; 11916416]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11916416); Some(11916416)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11916416; 11916416]. Proofs range: [11916416; 11916416].Trying to improve to: 11916416. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11916416 to Millau
+[1;38;5;8m2022-07-28 09:24:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xe932f9d23377839d4d74b4b64def9c338922a14ec3f88cf73a482f64ed6a7f8a797c9efc836e93ec0eba1ec6ec8ab81e203c4fdecb2eda6ccb653d933f162cfb
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:37:01 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11916540; 11916541]. Proofs range: [11916540; 11916541].Trying to improve to: 11916541. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:37:01 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11916541 to Millau
+[1;38;5;8m2022-07-28 09:37:01 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x54b0273e19bd0ab3cec8d9244abe9e38db096b16a5068de817a85eb6d99ef2c883fb05006a4b806918851e239248b8c7d1d5c2d08fd4d274ee83da23d0171dcf
+[1;38;5;8m2022-07-28 09:37:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10017530620098114, memory=20099072
+[1;38;5;8m2022-07-28 09:37:16 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:37:26 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:37:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:37:46 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:37:56 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:38:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:38:07 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Source(RpcError(RequestTimeout))
+[1;38;5;8m2022-07-28 09:38:16 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:38:26 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:38:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1004268154501915, memory=20099072
+[1;38;5;8m2022-07-28 09:38:46 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:38:56 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[1;38;5;8m2022-07-28 09:39:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=20099072
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:39:07 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11916541 of 11916562 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:39:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11916541; 11916562]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:39:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 21 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 09:39:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 19 finality proofs from Westend finality stream for headers in range [Some(11916542); Some(11916562)]
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917121); Some(11917122)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917121; 11917121]. Proofs range: [11917121; 11917122].Trying to improve to: 11917121. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:05 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917121 to Millau
+[1;38;5;8m2022-07-28 10:35:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xc077d091cb5bc04f725af2611095dff3912d3e32d20369451296fa9c3a280273d96e2205acc0de5ce9597210ec970b83004b1e340eed7589befbc5498dfd2cc1
+[1;38;5;8m2022-07-28 10:35:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10022550821304321, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917121 of 11917122 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917121; 11917122]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917122; 11917122]. Proofs range: [11917122; 11917122].Trying to improve to: 11917122. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917122 to Millau
+[1;38;5;8m2022-07-28 10:35:12 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":29273}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":29273}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917122; 11917122]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 10:35:16 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10030090063810349, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917123; 11917124]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917123); Some(11917124)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917124; 11917124]. Proofs range: [11917123; 11917124].Trying to improve to: 11917124. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:35:19 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917124 to Millau
+[1;38;5;8m2022-07-28 10:35:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x6380719d342d741fb8cda7e6d4e9b49b06695e5ee45b19aae9f72bbef6098c5834e9da439410e4be181b8ea85bc4ba753a927b6772e991c28580defd578d1ceb
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:41 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917237 of 11917237 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917237; 11917237]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 10:46:46 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917237; 11917238]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11917238); Some(11917238)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917238; 11917238]. Proofs range: [11917238; 11917238].Trying to improve to: 11917238. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917238 to Millau
+[1;38;5;8m2022-07-28 10:46:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":30332}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":30332}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917238; 11917238]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917238 of 11917240 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917238; 11917240]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917239); Some(11917240)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917239; 11917240]. Proofs range: [11917239; 11917240].Trying to improve to: 11917240. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917240 to Millau
+[1;38;5;8m2022-07-28 10:46:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x815f949fc3baf1f30c4868978e20ead91c85ba11f694ba39dc7e7edb7c8c438a34473909dcadbb14e7b24b2280430b28c0f80ccc18d98d38905d01d284ee94c0
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:11 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917602 of 11917602 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917602; 11917602]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 11:23:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917602; 11917604]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917603); Some(11917604)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917603; 11917604]. Proofs range: [11917603; 11917604].Trying to improve to: 11917604. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917604 to Millau
+[1;38;5;8m2022-07-28 11:23:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":33584}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":33584}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917604; 11917604]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917604 of 11917605 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917604; 11917605]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11917605); Some(11917605)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917605; 11917605]. Proofs range: [11917605; 11917605].Trying to improve to: 11917605. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917605 to Millau
+[1;38;5;8m2022-07-28 11:23:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x1d856490289324e5fbe01267e733008c6ddc309de859cdcec1abc70ac3c7c7ac34ffe3f1af9effeb2553800cfa263ecee3de5a0e46fdddddd2bf3fb76fef1346
+--
+[1;38;5;8m2022-07-28 11:39:27 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10055304318666458, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917765; 11917765]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:35 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917765 of 11917767 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917765; 11917767]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917766); Some(11917767)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917766; 11917767]. Proofs range: [11917766; 11917767].Trying to improve to: 11917767. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917767 to Millau
+[1;38;5;8m2022-07-28 11:39:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":35061}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":35061}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917767; 11917767]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 11:39:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10030090063810349, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917767; 11917768]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11917768); Some(11917768)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917768; 11917768]. Proofs range: [11917768; 11917768].Trying to improve to: 11917768. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917768 to Millau
+[1;38;5;8m2022-07-28 11:39:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x3d7ed1e85e975420c992a3dedf9f12f1d8155f762a336d8fe954f815cc96c0d050c521e009fd3d09ec92bb95407a31f92d6937272a5d7f19e944697a3500aa75
+--
+[1;38;5;8m2022-07-28 11:42:57 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10048988461494446, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917799; 11917799]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917799 of 11917801 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917799; 11917801]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11917801); Some(11917801)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917800; 11917801]. Proofs range: [11917801; 11917801].Trying to improve to: 11917801. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917801 to Millau
+[1;38;5;8m2022-07-28 11:43:06 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":35384}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":35384}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917801; 11917801]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 11:43:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10048988461494446, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917802; 11917803]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11917802); Some(11917803)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917803; 11917803]. Proofs range: [11917802; 11917803].Trying to improve to: 11917803. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917803 to Millau
+[1;38;5;8m2022-07-28 11:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x10650e1793f21a65a6b9a920626cb579381f70900b6423c70979fe08318c80a19018236e5494a67613795713a1fdf7608037a0cbd92ebb7ba86701e423a5e652
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:31 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917936 to Millau
+[1;38;5;8m2022-07-28 11:56:31 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x31a6cef6d15df1d787c0d663e4628eb1b4126b3f45252bc9bf92fc139592b1760649e6d96b89682f0059f7449db4678fb633879bb23da06a059b4cc8a1d26b08
+[1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917936 of 11917937 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917936; 11917937]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11917937); Some(11917937)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11917937; 11917937]. Proofs range: [11917937; 11917937].Trying to improve to: 11917937. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11917937 to Millau
+[1;38;5;8m2022-07-28 11:56:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xe6851d572e97d606d24384af91beafc43a4708a765182628075cd1f481b2ae73ddca2f8b069c907ebb1304009f666f904feff329f3b4a2ce9de69de940a0a23b
+[1;38;5;8m2022-07-28 11:56:45 +00[0m [1;38;5;9mERROR[0m [38;5;8mjsonrpsee_core::client::async_client[0m Error: Connection(Closed) terminating client
+[1;38;5;8m2022-07-28 11:56:45 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Westend justification subscription stream has returned None. Stream needs to be restarted.
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:45 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Source(RpcError(RestartNeeded("Networking or low-level protocol error: WebSocket connection error: connection closed")))
+[1;38;5;8m2022-07-28 11:56:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10016276687383652, memory=23023616
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Westend node at wss://westend-rpc.polkadot.io:443
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Restarting relay loop
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11917938 of 11917940 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917938; 11917940]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:56:55 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 11:56:57 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1003512293100357, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:57:01 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11917939; 11917941]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 11:57:01 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:23 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11918124 of 11918124 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918124; 11918124]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 12:15:27 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10025062412023544, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918124; 11918126]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11918125); Some(11918126)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11918125; 11918126]. Proofs range: [11918125; 11918126].Trying to improve to: 11918126. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11918126 to Millau
+[1;38;5;8m2022-07-28 12:15:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":38246}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":38246}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918126; 11918126]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11918126 of 11918127 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918126; 11918127]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11918127); Some(11918127)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11918127; 11918127]. Proofs range: [11918127; 11918127].Trying to improve to: 11918127. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11918127 to Millau
+[1;38;5;8m2022-07-28 12:15:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x379f1c13d7593e4b301deacc34edbe05f06bab90892a98f39b2d75b83d4284424c37f10311725a6216186c51e93bb963969b31af9e8e7fe64ffea02f913ebe34
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11918516); Some(11918516)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11918516; 11918516]. Proofs range: [11918516; 11918516].Trying to improve to: 11918516. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:35 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11918516 to Millau
+[1;38;5;8m2022-07-28 12:54:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x91edf1be5893353f39f00b9a9d90a51770e9c0a54c9448ecdb57f9fbee62bcf4853f5a6379925b8591d11fe8c2072dddd5b9fd22f3434d4b714850b87ef53cc4
+[1;38;5;8m2022-07-28 12:54:37 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10020039975643158, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918516; 11918518]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11918517); Some(11918518)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11918517; 11918518]. Proofs range: [11918517; 11918518].Trying to improve to: 11918518. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11918518 to Millau
+[1;38;5;8m2022-07-28 12:54:42 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":41713}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":41713}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918518; 11918518]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 12:54:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11918518 of 11918519 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11918518; 11918519]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11918519); Some(11918519)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11918519; 11918519]. Proofs range: [11918519; 11918519].Trying to improve to: 11918519. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 12:54:48 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11918519 to Millau
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919236); Some(11919236)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919236; 11919236]. Proofs range: [11919236; 11919236].Trying to improve to: 11919236. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:29 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919236 to Millau
+[1;38;5;8m2022-07-28 14:06:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xe5b1957e68694985b9e2c9afaf3256aa83e3cce5e9b0b5d49146aab2df55f0eb5f709dd66ebd042073c615276901c61f1750cf98a4959473b6ef289ad481fea8
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:35 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919236 of 11919237 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919236; 11919237]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919237); Some(11919237)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919237; 11919237]. Proofs range: [11919237; 11919237].Trying to improve to: 11919237. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919237 to Millau
+[1;38;5;8m2022-07-28 14:06:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":48055}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":48055}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919237; 11919237]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:06:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10051514208316803, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919237; 11919238]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919238); Some(11919238)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919238; 11919238]. Proofs range: [11919238; 11919238].Trying to improve to: 11919238. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919238 to Millau
+[1;38;5;8m2022-07-28 14:06:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x67f99006f62e663eaab26e285fcb8e47eb54c38afcfd70f2341a4a4f3b138383c3b5e2a12906a2d06719b32bc6da69811593384f99571050235c5c1b63668b9d
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:05 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919351 of 11919351 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919351; 11919351]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:18:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10001250356435776, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919351; 11919352]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919352); Some(11919352)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919352; 11919352]. Proofs range: [11919352; 11919352].Trying to improve to: 11919352. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919352 to Millau
+[1;38;5;8m2022-07-28 14:18:12 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":49081}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":49081}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919352; 11919352]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:18:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10026319324970245, memory=23498752
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919353 of 11919354 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919353; 11919354]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11919353); Some(11919354)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919354; 11919354]. Proofs range: [11919353; 11919354].Trying to improve to: 11919354. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:18:19 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919354 to Millau
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:30:56 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919480 to Millau
+[1;38;5;8m2022-07-28 14:30:56 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xff48a30820771c82241e9b570ed9e7c05bd8c27dd134bf3e5743c424b68a8b22adda18aec1f98774cb47e9c67fa42575717225b662da7fc1ad908a92da19885a
+[1;38;5;8m2022-07-28 14:30:58 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10027575492858887, memory=23764992
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919480 of 11919481 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919480; 11919481]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919481); Some(11919481)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919481; 11919481]. Proofs range: [11919481; 11919481].Trying to improve to: 11919481. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919481 to Millau
+[1;38;5;8m2022-07-28 14:31:02 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x0f51a0c5b4c0d994bb3f2a982ba280ee34482fe88ba084c0abc94f6871b6104a2483dee5937f969dad68429d439ebf8e05f4b6f2800ed0a205b12b88c2ea1b07
+[1;38;5;8m2022-07-28 14:31:07 +00[0m [1;38;5;9mERROR[0m [38;5;8mjsonrpsee_core::client::async_client[0m Error: Connection(Closed) terminating client
+[1;38;5;8m2022-07-28 14:31:07 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Westend justification subscription stream has returned None. Stream needs to be restarted.
+[1;38;5;8m2022-07-28 14:31:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23764992
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:08 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Source(RpcError(RestartNeeded("Networking or low-level protocol error: WebSocket connection error: connection closed")))
+[1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=23764992
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Westend node at wss://westend-rpc.polkadot.io:443
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Restarting relay loop
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919483 of 11919483 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919483; 11919483]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919484; 11919485]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:31:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11919484); Some(11919485)]
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919600); Some(11919600)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919600; 11919600]. Proofs range: [11919600; 11919600].Trying to improve to: 11919600. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:42:59 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919600 to Millau
+[1;38;5;8m2022-07-28 14:42:59 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xf09316d2253a9c9b03f73675527f5b68f66f9dce65939ba35ad6456fe78ec98763a0fd1402e5216af1bfed32c250d07cc18fe1c6351c20830ed9c79faab348dc
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919600; 11919602]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11919601); Some(11919602)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919601; 11919602]. Proofs range: [11919601; 11919602].Trying to improve to: 11919602. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919602 to Millau
+[1;38;5;8m2022-07-28 14:43:06 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":51288}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":51288}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919602; 11919602]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:43:08 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.2004259079694748, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919602 of 11919603 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919602; 11919603]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919603); Some(11919603)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919603; 11919603]. Proofs range: [11919603; 11919603].Trying to improve to: 11919603. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:43:12 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919603 to Millau
+--
+[1;38;5;8m2022-07-28 14:50:28 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1001502275466919, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919675; 11919675]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919675 of 11919677 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919675; 11919677]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11919676); Some(11919677)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919676; 11919677]. Proofs range: [11919676; 11919677].Trying to improve to: 11919677. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919677 to Millau
+[1;38;5;8m2022-07-28 14:50:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":51953}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":51953}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919677; 11919677]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:50:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10046464949846268, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:43 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919677; 11919677]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:43 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:43 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 14:50:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10038900375366211, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:49 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919677 of 11919679 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:50:49 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919677; 11919679]
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919747); Some(11919747)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919747; 11919747]. Proofs range: [11919747; 11919747].Trying to improve to: 11919747. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:41 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919747 to Millau
+[1;38;5;8m2022-07-28 14:57:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x48c18e9588721b66eb2adf01c0cb4ef16c166963198aa43ba5873a308121569e3c095a759c9c9141c3165b8fff2c4ecd3d5828a18e542e5164645b9d2dafbafd
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919747 of 11919749 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919747; 11919749]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11919748); Some(11919749)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919748; 11919749]. Proofs range: [11919748; 11919749].Trying to improve to: 11919749. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919749 to Millau
+[1;38;5;8m2022-07-28 14:57:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":52600}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":52600}")))
+[1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10018785297870636, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919749; 11919749]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919749; 11919750]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919750); Some(11919750)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919750; 11919750]. Proofs range: [11919750; 11919750].Trying to improve to: 11919750. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919750 to Millau
+[1;38;5;8m2022-07-28 14:57:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x3a600cecaf7c0182b4fd8587a792e88110b86f1db33bfc521014290f36796cadedfe03b96291c1b2800649cd532f67b701ad9744537149dd57e1d52171197e97
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919783); Some(11919783)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919783; 11919783]. Proofs range: [11919783; 11919783].Trying to improve to: 11919783. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:11 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919783 to Millau
+[1;38;5;8m2022-07-28 15:01:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x128dd24b81312575a2180b001b4cd8dba5c37780bfb8e71148851239970a480b6d3c8563d134498ce25d6e1764e61f4afa1f7f2a3dcb2bef904537116c37a9ee
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:17 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11919783 of 11919784 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919783; 11919784]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919784); Some(11919784)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919784; 11919784]. Proofs range: [11919784; 11919784].Trying to improve to: 11919784. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919784 to Millau
+[1;38;5;8m2022-07-28 15:01:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":52920}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":52920}")))
+[1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10120177268981934, memory=24313856
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919784; 11919784]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11919784; 11919785]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11919785); Some(11919785)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11919785; 11919785]. Proofs range: [11919785; 11919785].Trying to improve to: 11919785. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11919785 to Millau
+[1;38;5;8m2022-07-28 15:01:24 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x962faab63f669406c9e5fc55967e0be42f030eb000d89cee0fa8f325ec6e6e75b68535d30b549a8c97008eb7f931c4c7f803cbfec3d86b2aa572a0b99277d269
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920062); Some(11920062)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920062; 11920062]. Proofs range: [11920062; 11920062].Trying to improve to: 11920062. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:11 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920062 to Millau
+[1;38;5;8m2022-07-28 15:29:11 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xd86ab3dad40909d75f05a9b8dce3982cef534d5d660dad12fd0b9e48f8afe910d3e05c70c5a84ea434e6e5ac3fd66ccb8a5f65a0c33a6c1d1a1bdeaab8740214
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:17 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920062; 11920063]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920063); Some(11920063)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920063; 11920063]. Proofs range: [11920063; 11920063].Trying to improve to: 11920063. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920063 to Millau
+[1;38;5;8m2022-07-28 15:29:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":55369}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":55369}")))
+[1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10018785297870636, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920063; 11920064]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920064); Some(11920064)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920064; 11920064]. Proofs range: [11920064; 11920064].Trying to improve to: 11920064. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920064 to Millau
+[1;38;5;8m2022-07-28 15:29:18 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x858fade50117c23da8b375dcf241a0c0891c55c865db8cfb75991b956a8e7fd59397b4944773777776eafe59c18212e0128a8bd4fb2e1327234426cdc4fe36a5
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:25 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920065 of 11920065 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:25 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920065; 11920065]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:29:25 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920097; 11920097]. Proofs range: [11920097; 11920097].Trying to improve to: 11920097. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:35 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920097 to Millau
+[1;38;5;8m2022-07-28 15:32:35 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x385b75734a3f7aadd006bc766c422a7025bdbe6d50e2ebf669203f6f409b8ec068bf99e1898a80425615f4a5a62d3f3afba75a8fd3c3033054dd5c425f8393cf
+[1;38;5;8m2022-07-28 15:32:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10043942183256149, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920097 of 11920098 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920097; 11920098]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920098); Some(11920098)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920098; 11920098]. Proofs range: [11920098; 11920098].Trying to improve to: 11920098. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920098 to Millau
+[1;38;5;8m2022-07-28 15:32:42 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":55676}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":55676}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920098; 11920098]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:42 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920098; 11920099]
+[1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10046464949846268, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920099); Some(11920099)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920099; 11920099]. Proofs range: [11920099; 11920099].Trying to improve to: 11920099. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920099 to Millau
+[1;38;5;8m2022-07-28 15:32:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x89246806a29e8a150451666161a593691bfdd32e70360edcdeaa5c437440ae99bf76a7f065433dcb10802fea455054355a774fe3421877aa4a31ace8082c373d
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:23 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920134 of 11920134 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920134; 11920134]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 15:36:28 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1003386452794075, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:29 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920134; 11920135]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920135); Some(11920135)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920135; 11920135]. Proofs range: [11920135; 11920135].Trying to improve to: 11920135. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920135 to Millau
+[1;38;5;8m2022-07-28 15:36:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":56020}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":56020}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920135; 11920135]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:36 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920136 of 11920136 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920136; 11920136]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920136); Some(11920136)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 15:36:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10026319324970245, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:36:43 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920137; 11920138]
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920168; 11920169]. Proofs range: [11920169; 11920169].Trying to improve to: 11920169. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:47 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920169 to Millau
+[1;38;5;8m2022-07-28 15:39:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x68739841e85e2e3898536d7836514568783e59886d9746018c941ff19934b232c2dc34663b21119f463dabffe365665397be63ee992b32769e7f73b7ca97e6f1
+[1;38;5;8m2022-07-28 15:39:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.20095452666282654, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:53 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920169 of 11920170 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:53 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920169; 11920170]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920170); Some(11920170)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920170; 11920170]. Proofs range: [11920170; 11920170].Trying to improve to: 11920170. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920170 to Millau
+[1;38;5;8m2022-07-28 15:39:54 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":56327}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":56327}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920170; 11920170]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:39:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[1;38;5;8m2022-07-28 15:39:58 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920170; 11920170]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:00 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:06 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920172 of 11920172 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920172; 11920172]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:40:06 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+--
+[1;38;5;8m2022-07-28 15:51:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10051514208316803, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920286; 11920286]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:41 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:47 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920286 of 11920288 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:47 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920286; 11920288]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920288); Some(11920288)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920287; 11920288]. Proofs range: [11920288; 11920288].Trying to improve to: 11920288. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920288 to Millau
+[1;38;5;8m2022-07-28 15:51:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":57341}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":57341}")))
+[1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.1003638207912445, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920288; 11920288]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:48 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920288; 11920290]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920290); Some(11920290)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920289; 11920290]. Proofs range: [11920290; 11920290].Trying to improve to: 11920290. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920290 to Millau
+[1;38;5;8m2022-07-28 15:51:54 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x5fa4ecbfb291ec1b01cfa76b18972c09f0ee9a9318e93a66576c4b4d141dd1183381de1016d32413b372aea7f94042f2fab4a217ea737ee6c9fc5685d1b01091
+--
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920734; 11920734]. Proofs range: [11920734; 11920734].Trying to improve to: 11920734. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920734 to Millau
+[1;38;5;8m2022-07-28 16:36:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0x0b6a1acdbff57fe4b6b2193e1b18aa0ca006976c2aaed37988ccb53f9d7b113ed077abcaf2c5861a7e6680a047dcdb4b483f0103a9ec74db0b98f3288d806367
+[1;38;5;8m2022-07-28 16:36:28 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10056567937135696, memory=24580096
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced 11920734 of 11920735 headers
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920734; 11920735]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 1 finality proofs from Westend finality stream for headers in range [Some(11920735); Some(11920735)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920735; 11920735]. Proofs range: [11920735; 11920735].Trying to improve to: 11920735. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920735 to Millau
+[1;38;5;8m2022-07-28 16:36:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Millau node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":61285}")
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Finality sync loop iteration has failed with error: Target(RpcError(Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":61285}")))
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920735; 11920735]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 0 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:30 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Can not improve selected Westend finality proof None. No unjustified headers and recent proofs
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Considering range of headers (11920735; 11920737]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 Westend headers. Selected finality proof for header: None
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Read 2 finality proofs from Westend finality stream for headers in range [Some(11920736); Some(11920737)]
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Trying to improve selected Westend finality proof None. Headers range: [11920736; 11920737]. Proofs range: [11920736; 11920737].Trying to improve to: 11920737. Result: improved
+[Westend_to_Millau_Sync] [1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Going to submit finality proof of Westend header #11920737 to Millau
+[1;38;5;8m2022-07-28 16:36:36 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Millau node: 0xdf5d8db6e0b6795e01a4726c51cc18ebdebd1ff0351a49de731904db15cd0ac1dfa8c4b30d780ecffc243e25a21895ce9e3c71cec765c7d699a93a291be97f59
+[1;38;5;8m2022-07-28 16:36:38 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.10022550821304321, memory=24580096
