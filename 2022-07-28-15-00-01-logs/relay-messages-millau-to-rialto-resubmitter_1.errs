@@ -1,0 +1,14 @@
++ sleep 15
++ /home/user/substrate-relay resubmit-transactions millau --target-host millau-node-alice --target-port 9944 --target-signer //Rialto.MessagesSender --stalled-blocks 5 --tip-limit 1000000000000 --tip-step 1000000000 make-it-best-transaction
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Millau node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x6f51b076031a3597b8b11796e1122e9546d39d27dc82a6e240e7107146fe101035655c215431220123776022287fd023a5d17a9bc976fa83c927699c0378b2e9) is not yet stalled (1/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x6f51b076031a3597b8b11796e1122e9546d39d27dc82a6e240e7107146fe101035655c215431220123776022287fd023a5d17a9bc976fa83c927699c0378b2e9) is not yet stalled (2/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x6f51b076031a3597b8b11796e1122e9546d39d27dc82a6e240e7107146fe101035655c215431220123776022287fd023a5d17a9bc976fa83c927699c0378b2e9) is not yet stalled (3/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x6f51b076031a3597b8b11796e1122e9546d39d27dc82a6e240e7107146fe101035655c215431220123776022287fd023a5d17a9bc976fa83c927699c0378b2e9) is not yet stalled (4/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction priority with tip=0: 1. Target priority: 236
