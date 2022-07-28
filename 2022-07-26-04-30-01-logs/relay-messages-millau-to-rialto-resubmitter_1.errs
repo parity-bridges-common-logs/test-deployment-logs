@@ -1,0 +1,14 @@
++ sleep 15
++ /home/user/substrate-relay resubmit-transactions millau --target-host millau-node-alice --target-port 9944 --target-signer //Rialto.MessagesSender --stalled-blocks 5 --tip-limit 1000000000000 --tip-step 1000000000 make-it-best-transaction
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Millau node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-alice:9944
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x28ef869a7bb4eb9f1e1a273571c8937d216dd7234d5b059c499bf5cbe0904f762fc41cdf1639c5a148367c526d7f7dcb8f916ce96d36b0f43966d4a4450138d2) is not yet stalled (1/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m No Millau transactions from required signer in the txpool
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x83c610d8d04c355dcfbbdae73ac199e54db4b699f02ada502b3c40456e5fe8f36ccfc281313dd0928b695c6e1d587209a4948c8154839e760c65144738c5b8d0) is not yet stalled (1/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x83c610d8d04c355dcfbbdae73ac199e54db4b699f02ada502b3c40456e5fe8f36ccfc281313dd0928b695c6e1d587209a4948c8154839e760c65144738c5b8d0) is not yet stalled (2/5)
+[ResubmitTransactionsMillau] [38;5;12mTRACE[0m [38;5;8mbridge[0m Millau transaction Some(0x83c610d8d04c355dcfbbdae73ac199e54db4b699f02ada502b3c40456e5fe8f36ccfc281313dd0928b695c6e1d587209a4948c8154839e760c65144738c5b8d0) is not yet stalled (3/5)

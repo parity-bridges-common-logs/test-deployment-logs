@@ -1,0 +1,36 @@
+Sleeping 22 seconds...
+Woke up at 2022-07-26 05:01:48
+Sending Message from Rialto to Millau
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944 [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944 [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944 [38;5;10mINFO[0m [38;5;8mbridge[0m Millau -> Rialto conversion rate override: 9.009096639979829 (value from metric - 8.580092038076026) [38;5;10mINFO[0m [38;5;8mbridge[0m Estimated message fee: 18661254645 = max of 4344984402 (without rate override) and 18661254645 (with override to Some(FixedU128(9.009096639979828224))) [38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Lane: [0, 0, 0, 0]. Size: 8. Fee: 18,661,254,645 [38;5;10mINFO[0m [38;5;8mbridge[0m The source account (dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c (5H6y5Bez...)) balance will be reduced by (at most) 18661254645 (message fee) + 2724334171 (tx fee ) = 21385588816 Rialto tokens [38;5;10mINFO[0m [38;5;8mbridge[0m Signed Rialto Call: 0x190211028400dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c01e02eb3ed1a4249c1aad333824318c647716bb4e0d793d88e2d399960ed6c2f673b616b3187d4f1ec44087dc6aac5784df48c55e9ab723f860902587bb895d08d0000000f03000000001c010109030419a8f5254c58040000000000000000000000
+Read updated conversion rate: 9.009096639979829
+Sending Message from Rialto to Millau using secondary lane: 00000001
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[38;5;10mINFO[0m [38;5;8mbridge[0m Millau -> Rialto conversion rate override: 9.009096639979829 (explicit)
+[38;5;10mINFO[0m [38;5;8mbridge[0m Estimated message fee: 18661254645 = max of 4344984402 (without rate override) and 18661254645 (with override to Some(FixedU128(9.009096639979828224)))
+[38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Lane: [0, 0, 0, 1]. Size: 8. Fee: 18,661,254,645
+[38;5;10mINFO[0m [38;5;8mbridge[0m The source account (dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c (5H6y5Bez...)) balance will be reduced by (at most) 18661254645 (message fee)
+				+ 2724334171 (tx fee	) = 21385588816 Rialto tokens
+[38;5;10mINFO[0m [38;5;8mbridge[0m Signed Rialto Call: 0x190211028400dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c0124ae45ecb1024361c607cd883e421f2e0d3dcad29583faf3d42739fadec37347c76964e6ceabfd8d2e61d4ceea27e536fc69756eab17bf8962ad3e8a3895138a0004000f03000000011c010109030419a8f5254c58040000000000000000000000
+Sleeping 11 seconds...
+--
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[38;5;10mINFO[0m [38;5;8mbridge[0m Millau -> Rialto conversion rate override: 8.894376377952755 (explicit)
+[38;5;10mINFO[0m [38;5;8mbridge[0m Estimated message fee: 18400622725 = max of 17838839075 (without rate override) and 18400622725 (with override to Some(FixedU128(8.894376377952754688)))
+[38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Lane: [0, 0, 0, 1]. Size: 8. Fee: 18,400,622,725
+[38;5;10mINFO[0m [38;5;8mbridge[0m The source account (dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c (5H6y5Bez...)) balance will be reduced by (at most) 18400622725 (message fee)
+				+ 2664646453 (tx fee	) = 21065269178 Rialto tokens
+[38;5;10mINFO[0m [38;5;8mbridge[0m Signed Rialto Call: 0x1d0215028400dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c01548035371b61f665b26cc4c6381cd55f180d0e336c15960735a461fc05d7b320656b39193a35207ab55065b0405758d03ee8adbb14c15e120e754fec81ab148a00f555000f03000000011c010109030419a88538c348040000000000000000000000
+Sleeping 2 seconds...
+Woke up at 2022-07-26 10:16:42
+Sending Message from Rialto to Millau
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944 [38;5;10mINFO[0m [38;5;8mbridge[0m Millau -> Rialto conversion rate override: 8.894376377952755 (explicit) [38;5;10mINFO[0m [38;5;8mbridge[0m Estimated message fee: 18400622725 = max of 17838839075 (without rate override) and 18400622725 (with override to Some(FixedU128(8.894376377952754688))) [38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Lane: [0, 0, 0, 0]. Size: 8. Fee: 18,400,622,725 [38;5;10mINFO[0m [38;5;8mbridge[0m The source account (dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c (5H6y5Bez...)) balance will be reduced by (at most) 18400622725 (message fee) + 2664646453 (tx fee ) = 21065269178 Rialto tokens [38;5;10mINFO[0m [38;5;8mbridge[0m Signed Rialto Call: 0x1d0215028400dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c01d434cabb57a225104fae1feb8c278970694b16240e2670ed9fbbf458b8a89c1e0593a04ed466d799ff17c6d47a4d1cc6d007c15d307e2aaaacfdf3968cecc78f00f155000f03000000001c010109030419a88538c348040000000000000000000000 [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to send transaction to Rialto node: Request("{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":6}") [1;38;5;9mERROR[0m [38;5;8mbridge[0m substrate-relay: RPC error: JSON-RPC request error: "{\"jsonrpc\":\"2.0\",\"error\":{\"code\":1010,\"message\":\"Invalid Transaction\",\"data\":\"Transaction is outdated\"},\"id\":6}"
+Sending Message from Rialto to Millau using secondary lane: 00000001
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[38;5;10mINFO[0m [38;5;8mbridge[0m Millau -> Rialto conversion rate override: 8.894376377952755 (explicit)
+[38;5;10mINFO[0m [38;5;8mbridge[0m Estimated message fee: 18400605514 = max of 17838821864 (without rate override) and 18400605514 (with override to Some(FixedU128(8.894376377952754688)))
+[38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Lane: [0, 0, 0, 1]. Size: 8. Fee: 18,400,605,514
+[38;5;10mINFO[0m [38;5;8mbridge[0m The source account (dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c (5H6y5Bez...)) balance will be reduced by (at most) 18400605514 (message fee)
+				+ 2664627968 (tx fee	) = 21065233482 Rialto tokens
+[38;5;10mINFO[0m [38;5;8mbridge[0m Signed Rialto Call: 0x1d0215028400dee6e10536f0d3b2a789ef013302412c9a00f8120036b65d9934e513d790c62c015afa6369181ac25d874986a2af4123f42b19d71a103899a5cb70257166fbdc3aaee32cd31e25a749750f22a864a7b9f8f4baf28ca7b5e21a6038ef474e57e58f00f955000f03000000011c010109030419a84af5c248040000000000000000000000
+Sleeping 29 seconds...
+Woke up at 2022-07-26 10:17:11

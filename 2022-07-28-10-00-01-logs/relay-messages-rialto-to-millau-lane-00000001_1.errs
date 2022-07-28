@@ -1,0 +1,47 @@
++ sleep 15
++ MESSAGE_LANE=00000001
++ /home/user/substrate-relay relay-messages rialto-to-millau --lane 00000001 --source-host rialto-node-bob --source-port 9944 --source-signer //Millau.OutboundMessagesRelay.Lane00000001 --target-host millau-node-bob --target-port 9944 --target-signer //Rialto.InboundMessagesRelay.Lane00000001 --prometheus-host=0.0.0.0
+[1;38;5;8m2022-07-28 05:01:45 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-28 05:01:45 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-28 05:01:55 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-28 05:01:55 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-bob:9944
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Starting Rialto -> Millau messages relay.
+	Rialto relayer account id: 2cebab56244664e167208168b23678056c85ff0cde461e65a3949e2c7ab3ab48 (5D5byMhg...)
+	Max messages in single transaction: 512
+	Max messages size in single transaction: 524288
+	Max messages weight in single transaction: 108291666667
+	Tx mortality: None (~60m)/None (~60m)
+	Stall timeout: 3600s
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Starting prometheus endpoint at: 0.0.0.0:9616
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("Rialto_Millau_to_Rialto_conversion_rate")': 1.0
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=17182720
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:05 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.690079955
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:05 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 0.726766973
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("millau_storage_proof_overhead")': 1111
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("polkadot_to_base_conversion_rate")': 0.00033307
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("rialto_storage_proof_overhead")': 661
+[1;38;5;8m2022-07-28 05:02:05 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("kusama_to_base_conversion_rate")': 0.00267649
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:10 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:10 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:10 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 1.092085571
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:10 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.778505596
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:15 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:15 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:15 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.779570597
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:15 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 0.713659816
+[1;38;5;8m2022-07-28 05:02:15 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.6995627880096436, memory=27787264
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 1.797596714
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received state from Rialto node: ClientState { best_self: HeaderId(3, 0xfa58c86bc3b0fa52db008f863a3318816afdb868678869f0ad0339d45b48d631), best_finalized_self: HeaderId(0, 0x69c3dca60f0aff082d35ddbcf866abf2c18ff598befff03ddf1353c98bc49ca7), best_finalized_peer_at_best_self: HeaderId(1, 0x97ca65c6de4f9c0644d551ec660d9a97788979ed38997d246e37e77f426d5212a8c47fcb1420f8a0836bfd0dc78d4c10f9217a7e540d8d80d4bdfa317f2de9c3), actual_best_finalized_peer_at_best_self: HeaderId(1, 0x97ca65c6de4f9c0644d551ec660d9a97788979ed38997d246e37e77f426d5212a8c47fcb1420f8a0836bfd0dc78d4c10f9217a7e540d8d80d4bdfa317f2de9c3) }
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Rialto::MessagesDelivery -> Millau::MessagesDelivery race
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Millau::ReceivingConfirmationsDelivery -> Rialto::ReceivingConfirmationsDelivery race
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto::ReceivingConfirmationsDelivery about best message nonces
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received best nonces from Rialto::ReceivingConfirmationsDelivery: TargetClientNonces { latest_nonce: 0, nonces_data: () }
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto::ReceivingConfirmationsDelivery about finalized message nonces
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:20 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received finalized nonces from Rialto::ReceivingConfirmationsDelivery: TargetClientNonces { latest_nonce: 0, nonces_data: () }
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:25 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:25 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-28 05:02:25 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received state from Rialto node: ClientState { best_self: HeaderId(4, 0x319f8489fc39e86c48f25b32934cd818b42b2cd71f0955257469ce6bd2e06ceb), best_finalized_self: HeaderId(1, 0x3a683615f4299eae35d8d91ca214dd8ad1a2644d1453193d3e95a08d870cb5e2), best_finalized_peer_at_best_self: HeaderId(1, 0x97ca65c6de4f9c0644d551ec660d9a97788979ed38997d246e37e77f426d5212a8c47fcb1420f8a0836bfd0dc78d4c10f9217a7e540d8d80d4bdfa317f2de9c3), actual_best_finalized_peer_at_best_self: HeaderId(1, 0x97ca65c6de4f9c0644d551ec660d9a97788979ed38997d246e37e77f426d5212a8c47fcb1420f8a0836bfd0dc78d4c10f9217a7e540d8d80d4bdfa317f2de9c3) }

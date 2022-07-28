@@ -1,0 +1,52 @@
++ sleep 15
++ MESSAGE_LANE=00000001
++ /home/user/substrate-relay relay-messages rialto-to-millau --lane 00000001 --source-host rialto-node-bob --source-port 9944 --source-signer //Millau.OutboundMessagesRelay.Lane00000001 --target-host millau-node-bob --target-port 9944 --target-signer //Rialto.InboundMessagesRelay.Lane00000001 --prometheus-host=0.0.0.0
+[1;38;5;8m2022-07-26 05:01:42 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-26 05:01:42 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-26 05:01:52 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-26 05:01:52 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-07-26 05:02:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-07-26 05:02:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-bob:9944
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Starting Rialto -> Millau messages relay.
+	Rialto relayer account id: 2cebab56244664e167208168b23678056c85ff0cde461e65a3949e2c7ab3ab48 (5D5byMhg...)
+	Max messages in single transaction: 512
+	Max messages size in single transaction: 524288
+	Max messages weight in single transaction: 108291666667
+	Tx mortality: None (~60m)/None (~60m)
+	Stall timeout: 3600s
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=53.33333206176758, memory=16269312
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("Rialto_Millau_to_Rialto_conversion_rate")': 1.0
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Starting prometheus endpoint at: 0.0.0.0:9616
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:03 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 0.462139627
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:03 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.312680312
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("millau_storage_proof_overhead")': 1111
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("rialto_storage_proof_overhead")': 661
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("polkadot_to_base_conversion_rate")': 0.00031726
+[1;38;5;8m2022-07-26 05:02:03 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("kusama_to_base_conversion_rate")': 0.00272212
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:08 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:08 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:08 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.646163211
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:08 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 0.545329041
+[1;38;5;8m2022-07-26 05:02:13 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0.6009765863418579, memory=26902528
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:13 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:13 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:13 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 1.021745108
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:13 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 1.1441837719999999
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:18 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 1.650163721
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:18 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 2.311194083
+[1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Refreshed process metrics: CPU=0, memory=26902528
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 3.331407054
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received state from Rialto node: ClientState { best_self: HeaderId(3, 0x5027c0f03a450e0a915f4b2b2929e6c6bbcdeaedb44178bebc511a1b54c84820), best_finalized_self: HeaderId(1, 0xf412dab0eaac2b3ba4cda6211d98feb85c305e0877092df5307e09ab7eebd613), best_finalized_peer_at_best_self: HeaderId(1, 0x924005061af4d950d44e657fedbd82cca0d9fe3454fc0b4596594c770fed06726ac79b0852ead00be584cf9aad93c94c32024167fbf609873f2a6224450050f0), actual_best_finalized_peer_at_best_self: HeaderId(1, 0x924005061af4d950d44e657fedbd82cca0d9fe3454fc0b4596594c770fed06726ac79b0852ead00be584cf9aad93c94c32024167fbf609873f2a6224450050f0) }
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Rialto::MessagesDelivery -> Millau::MessagesDelivery race
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Millau::ReceivingConfirmationsDelivery -> Rialto::ReceivingConfirmationsDelivery race
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto::ReceivingConfirmationsDelivery about best message nonces
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received best nonces from Rialto::ReceivingConfirmationsDelivery: TargetClientNonces { latest_nonce: 0, nonces_data: () }
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto::ReceivingConfirmationsDelivery about finalized message nonces
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:23 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Received finalized nonces from Rialto::ReceivingConfirmationsDelivery: TargetClientNonces { latest_nonce: 0, nonces_data: () }
+[1;38;5;8m2022-07-26 05:02:28 +00[0m [38;5;12mTRACE[0m [38;5;8mbridge-metrics[0m Updated value of metric 'Some("Rialto_Millau_to_Rialto_conversion_rate")': 1.0
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:28 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Millau node about its state
+[Rialto_to_Millau_MessageLane_00000001] [1;38;5;8m2022-07-26 05:02:28 +00[0m [38;5;14mDEBUG[0m [38;5;8mbridge[0m Asking Rialto node about its state
