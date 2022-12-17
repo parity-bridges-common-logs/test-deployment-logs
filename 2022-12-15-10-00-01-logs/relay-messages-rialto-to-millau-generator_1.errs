@@ -1,0 +1,17 @@
+Sleeping 5 seconds...
+Woke up at 2022-12-15 05:01:38
+Sending Message from Rialto to Millau
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Size: 5
+[38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Rialto node: 0x13e9384de6646a128df0734bc3d0dab8eb6992e2b2d6641c0d6fba40d13c71c7
+Sleeping 27 seconds...
+Woke up at 2022-12-15 05:02:25
+Sending Maximal Size Message from Rialto to Millau
+[38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[38;5;10mINFO[0m [38;5;8mbridge[0m Sending message to Millau. Size: 1048580
+[38;5;12mTRACE[0m [38;5;8mbridge[0m Sent transaction to Rialto node: 0xdba60e26e7911b992291aec0bab09273731cd6e4e2f46497ed56f7619e715aeb
+Sleeping 30 seconds...

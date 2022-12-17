@@ -1,0 +1,401 @@
+2022-12-16 05:01:55.081 DEBUG tokio-runtime-worker rpc_metrics: [ws] system_accountNextIndex call took 132 μs    
+2022-12-16 05:01:55.081 TRACE tokio-runtime-worker txpool: [0x344ab5068b8374fab05cc22fc738ef7a0504f72a26f5e292127b8b3255bc02bb775ba34530730e49084bfd030dab19bd6c3ec60ede6230ccd82b30daab5d212e] WaitingTransaction { imported_at: Instant { tv_sec: 23906981, tv_nsec: 749942464 }, transaction: Transaction { hash: 0x344ab5068b8374fab05cc22fc738ef7a0504f72a26f5e292127b8b3255bc02bb775ba34530730e49084bfd030dab19bd6c3ec60ede6230ccd82b30daab5d212e, priority: 2690009475926, valid_till: 18446744073709551614, bytes: 1043, propagate: true, source: TransactionSource::External, requires: [], provides: [2c1116335e2fec0e91e931df6b3b5ecfdb9eb68d234882bde7ad23810b507f7700000000], data: 842c1116335e2fec0e91e931df6b3b5ecfdb9eb68d234882bde7ad23810b507f7701e0d2e492bf4fd5bb99b7b0c9b13eb5755387e5cedced2f142787b7c73291dc1e9577ccd35e546e27b39d9a7a0c2b215daca7a8ff7e7be7669d3c5424ddfcb48f0000001101fceb23be34a30e4b65b7393ed72ff85402b9183a8a67da9d2b13742193e6386e025d4903a4d768abd24a70036b86b4179106e1cb22348b55ef6820a68142e79a23439e1c21039a5a7ab0198736b8d587fb45534b24a62079558c1d70e97c7c276ea7fb0f080642414245b501010300000048ff99100000000066e9938c2846b70c558f88bc2d2510291a20d3dab00392babe68f758df1c7f29701b56f2c8b24106a80b74a150e80507b718a3ec90dfcb0cbb84ff88c0e7160d79fa57e22cf9c8ae2947fbf5e90770e271c1967ee6f29470168841e5446b9500054241424501018a292d545c81d1443c85a438ec65bb688dcef6fda8c76dd228c730307011ef4e11f75a8cd4775369ce72dee4c76bc679e580fb4dc0bd86ae6a1815b80964b28d40a99c0755eec29f2be753fb701762d1e7cc841323bac49576b9ea2e124c4b7b9f0100000000000000a674568468af9fef031f033166880eec9f5ddd05d797d5abf1a9b9a957c778200100000000000000b5cd779c5dc631951554b5f90707f1e82d356c1160fb75d63e067ead074dab0e0100000000000000...8dbbc32381895955ee27448f8869e101000000000000007e287589ac74a46b3a74a8ae66c3e2554857419bd00f9bfeb55957fffccd98b901000000000000006933723ece8ba99707529df95a178c9f1c3bdce20f1106d839cc3e6f148a44b60100000000000000d3ccc285f3c648f34ca9ce476651495b9a6c4aa7607d83737bd871de56a50ed901000000000000001d50350ac619dc36a0fe05cdd7a1654e73858586d55265f3524cc27e005be0f20100000000000000ff90c8eb17a49e1754e65f5ca7131dc5f80b1a5e3232b661066031d9d91f120a0100000000000000f12e7ddae48873b7dcd614b8ccc8ea2e5ec000f3cc398f20801cf9047bc909b201000000000000009e8adb538dacdd20c86c4eca9a158895cef125dfd118e883cd55454f8d59f3ed010000000000000019b6ba718c28b1078474dc63e9d8a6f4d794da79f661da070fcca13b3bba50e70100000000000000229366210b4b20adf7741fb6bc8fa669ea2f7470e1440b38969d2a47d752ffeb01000000000000002bf793d9fb4251da094a2dd33bb0f68a46e60d799b58a78a4a5cc369a92ee2ec01000000000000003ab4559bf186773ede8cf3ddc78a93439c8e82ead090de7d3c2fe4e75591fcf101000000000000001a619f90a9c96ec3e1c57211613247e8c0efe123188263da1dc8796d6a018c1601000000000000001b1700000000000000}, missing_tags: {}}    
+2022-12-16 05:01:55.082 DEBUG tokio-runtime-worker txpool: [0x344ab5068b8374fab05cc22fc738ef7a0504f72a26f5e292127b8b3255bc02bb775ba34530730e49084bfd030dab19bd6c3ec60ede6230ccd82b30daab5d212e] Importing to ready    
+2022-12-16 05:01:55.082 TRACE tokio-runtime-worker txpool: [0x344ab5068b8374fab05cc22fc738ef7a0504f72a26f5e292127b8b3255bc02bb775ba34530730e49084bfd030dab19bd6c3ec60ede6230ccd82b30daab5d212e] Ready (replaced with None)    
+2022-12-16 05:01:55.082 DEBUG tokio-runtime-worker txpool: Pool Status: PoolStatus { ready: 1, ready_bytes: 1043, future: 0, future_bytes: 0 }    
+2022-12-16 05:01:55.082 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_submitExtrinsic call took 2442 μs    
+2022-12-16 05:01:55.082 TRACE tokio-runtime-worker txpool: [0x344ab5068b8374fab05cc22fc738ef7a0504f72a26f5e292127b8b3255bc02bb775ba34530730e49084bfd030dab19bd6c3ec60ede6230ccd82b30daab5d212e] Broadcasted    
+2022-12-16 05:01:55.082 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 127 μs    
+2022-12-16 05:01:55.085 TRACE tokio-runtime-worker txpool: [0xcb99eed2cb162a051543a12cbd11db6b1f8853d377afcb5abb828ca3201da767f7095d735fe1621e22535dbc9a5b9f35501e10fb1c0400de979ab9335c27324c] WaitingTransaction { imported_at: Instant { tv_sec: 23906981, tv_nsec: 753256032 }, transaction: Transaction { hash: 0xcb99eed2cb162a051543a12cbd11db6b1f8853d377afcb5abb828ca3201da767f7095d735fe1621e22535dbc9a5b9f35501e10fb1c0400de979ab9335c27324c, priority: 2690009475926, valid_till: 18446744073709551614, bytes: 1043, propagate: true, source: TransactionSource::External, requires: [], provides: [2c1116335e2fec0e91e931df6b3b5ecfdb9eb68d234882bde7ad23810b507f7700000000], data: 842c1116335e2fec0e91e931df6b3b5ecfdb9eb68d234882bde7ad23810b507f77015c99bba98a13fb087d93267aa94c2fd964eb468c2ef9d42584ee759584014b4f7e4bd65e0bc501633a449335b503c38d345e948e5e278d16b33b0adbc2d7b0810000001101fceb23be34a30e4b65b7393ed72ff85402b9183a8a67da9d2b13742193e6386e025d4903a4d768abd24a70036b86b4179106e1cb22348b55ef6820a68142e79a23439e1c21039a5a7ab0198736b8d587fb45534b24a62079558c1d70e97c7c276ea7fb0f080642414245b501010300000048ff99100000000066e9938c2846b70c558f88bc2d2510291a20d3dab00392babe68f758df1c7f29701b56f2c8b24106a80b74a150e80507b718a3ec90dfcb0cbb84ff88c0e7160d79fa57e22cf9c8ae2947fbf5e90770e271c1967ee6f29470168841e5446b9500054241424501018a292d545c81d1443c85a438ec65bb688dcef6fda8c76dd228c730307011ef4e11f75a8cd4775369ce72dee4c76bc679e580fb4dc0bd86ae6a1815b80964b28d40a99c0755eec29f2be753fb701762d1e7cc841323bac49576b9ea2e124c4b7b9f0100000000000000a674568468af9fef031f033166880eec9f5ddd05d797d5abf1a9b9a957c778200100000000000000b5cd779c5dc631951554b5f90707f1e82d356c1160fb75d63e067ead074dab0e0100000000000000...8dbbc32381895955ee27448f8869e101000000000000007e287589ac74a46b3a74a8ae66c3e2554857419bd00f9bfeb55957fffccd98b901000000000000006933723ece8ba99707529df95a178c9f1c3bdce20f1106d839cc3e6f148a44b60100000000000000d3ccc285f3c648f34ca9ce476651495b9a6c4aa7607d83737bd871de56a50ed901000000000000001d50350ac619dc36a0fe05cdd7a1654e73858586d55265f3524cc27e005be0f20100000000000000ff90c8eb17a49e1754e65f5ca7131dc5f80b1a5e3232b661066031d9d91f120a0100000000000000f12e7ddae48873b7dcd614b8ccc8ea2e5ec000f3cc398f20801cf9047bc909b201000000000000009e8adb538dacdd20c86c4eca9a158895cef125dfd118e883cd55454f8d59f3ed010000000000000019b6ba718c28b1078474dc63e9d8a6f4d794da79f661da070fcca13b3bba50e70100000000000000229366210b4b20adf7741fb6bc8fa669ea2f7470e1440b38969d2a47d752ffeb01000000000000002bf793d9fb4251da094a2dd33bb0f68a46e60d799b58a78a4a5cc369a92ee2ec01000000000000003ab4559bf186773ede8cf3ddc78a93439c8e82ead090de7d3c2fe4e75591fcf101000000000000001a619f90a9c96ec3e1c57211613247e8c0efe123188263da1dc8796d6a018c1601000000000000001b1700000000000000}, missing_tags: {}}    
+2022-12-16 05:01:55.085 DEBUG tokio-runtime-worker txpool: [0xcb99eed2cb162a051543a12cbd11db6b1f8853d377afcb5abb828ca3201da767f7095d735fe1621e22535dbc9a5b9f35501e10fb1c0400de979ab9335c27324c] Importing to ready    
+2022-12-16 05:01:55.085 DEBUG tokio-runtime-worker txpool: [0xcb99eed2cb162a051543a12cbd11db6b1f8853d377afcb5abb828ca3201da767f7095d735fe1621e22535dbc9a5b9f35501e10fb1c0400de979ab9335c27324c] Error importing: TooLowPriority { old: 2690009475926, new: 2690009475926 }    
+2022-12-16 05:01:55.085 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_submitExtrinsic call took 1382 μs    
+2022-12-16 05:01:55.329  INFO tokio-runtime-worker libp2p_mdns::behaviour: discovered: 12D3KooWEQ2eGsnhGDRPqHcZHN2axew4YVXtWZXrGttBu6N6FiyW /ip4/172.23.0.12/tcp/30333    
+2022-12-16 05:01:55.331  INFO tokio-runtime-worker libp2p_mdns::behaviour: discovered: 12D3KooWFjgUR5GnxqRPhu8PgimnpVLK5EthCG47vqtXjR6ybtfq /ip4/172.23.0.13/tcp/30333    
+2022-12-16 05:01:57.747  INFO tokio-runtime-worker substrate: 💤 Idle (4 peers), best: #2 (0xab42…8a22), finalized #0 (0x1699…d2f5), ⬇ 1.5MiB/s ⬆ 938.7kiB/s    
+2022-12-16 05:01:58.147  INFO tokio-runtime-worker jsonrpsee_ws_server::server: Accepting new connection 7/100
+2022-12-16 05:01:58.155 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getBlockHash call took 154 μs    
+2022-12-16 05:01:59.597 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 118 μs    
+2022-12-16 05:01:59.598 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_pendingExtrinsics call took 66 μs    
+2022-12-16 05:01:59.760 DEBUG tokio-runtime-worker rpc_metrics: [ws] grandpa_subscribeJustifications call took 94 μs    
+2022-12-16 05:02:00.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xab42b328787c071edaee12038b7f4c8357540bcb3f2fe3e92d700a2d8d120d4258aa39862469eafb00f2ba71cf003cc2694ccce19324822dc47437b1d9c28a22    
+--
+2022-12-16 05:02:15.251 TRACE tokio-runtime-worker txpool: [0x622c35d7d6a007754caaaf7aebdb7fbdd94c2631e3632504753f4d9d8411b2024af2500b970de359bfa165f45df66eead532d4702ac2c19762fa3f869728d780] Ready (replaced with None)    
+2022-12-16 05:02:15.251 DEBUG tokio-runtime-worker txpool: Pool Status: PoolStatus { ready: 2, ready_bytes: 2906, future: 0, future_bytes: 0 }    
+2022-12-16 05:02:15.251 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_submitExtrinsic call took 807 μs    
+2022-12-16 05:02:15.251 TRACE tokio-runtime-worker txpool: [0x622c35d7d6a007754caaaf7aebdb7fbdd94c2631e3632504753f4d9d8411b2024af2500b970de359bfa165f45df66eead532d4702ac2c19762fa3f869728d780] Broadcasted    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc: State nonce for 716xYXjrwyHNKaL96SdLKipZcs5iK287uErnfzsyHuXAS781: 0    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc: Current nonce to 0, checking 266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a00000000 vs ["266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a00000000"]    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc: Current nonce to 1, checking 266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a01000000 vs ["3e68bd0153d72da3d326505edbf508200eedb90581a3b21ba91f5f55523a607301000000"]    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc_metrics: [ws] system_accountNextIndex call took 171 μs    
+2022-12-16 05:02:15.252 TRACE tokio-runtime-worker txpool: [0xfe490a83e97d05a27398b69f67278fef053b89f1e679eabfee2e0c23d869e898fb4569369226f4f101017a0de751e9608aa3d16010bf6cea3a91d25663ba44f7] WaitingTransaction { imported_at: Instant { tv_sec: 23907001, tv_nsec: 920150263 }, transaction: Transaction { hash: 0xfe490a83e97d05a27398b69f67278fef053b89f1e679eabfee2e0c23d869e898fb4569369226f4f101017a0de751e9608aa3d16010bf6cea3a91d25663ba44f7, priority: 2689954020286, valid_till: 18446744073709551614, bytes: 882, propagate: true, source: TransactionSource::External, requires: [], provides: [266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a00000000], data: 84266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a018468cecce4116445e0e96433c55c065ab928f5256cbf30673c71c66af4b5811a2dd0fe30492543d3d8cb22052ce335fc07737a23de4bc605ae3f0f0678f7ec8100000001000f01e07c46c2c940f73c0547e98a7cafe0b044e44274681359292d79ffbd95209d7404f9d1b39c8626e07f3c444947d4409711ee51d8fdd50be75e9e2812bdbab5c53ee521e12b7f848f5f09adef82638c62758f82036358ce30f93e668cd490267b2f100642414245b50103000000004cff99100000000056cda7c22e78ee330e526defd5c907f7adc0fe744a2f51ea5a4772eb6ba9223b6ffe00d5fdb6267dbf25d1a0b7472b91470286e4f9cba80b0871cea41890110ddf1fd3d473a2019313b8cf3744f7073855055536243768e5bc5fb2d8439790020442414245a9030114d43593c715fdd31c61141abd04a99fd6822c8558854ccde39a5684e7a56da27d01000000000000008eaf04151687736326c9fea17e25fc5287613693c912909cb226aa4794f26a48010000000000000090b5ab205c6974c9ea841be688864633dc9ca8a357843eeacf2314649965fe220100000000000000306721211d5404bd9da88e0204360a1a9ab8b87c66c1bc2fcdd37f3c2222cc200100000000000000e659a7a1628cdd93febc04a4e0646ea20e9f5f0ce097d9a05290d4a9e054df4e01000000000000000000000000000000000000000000000000000000000000000000000000000000044245454684036b90cc3aa9da56b66bba0aa9e4e6cda97efd85a54d261c0631a7625049f65c44054241424501017eee276be0e292cf332bd4c13eccd8e552451cfe4608c429009a49df7cc298070adb0d9490743d89255e95c68d33ec51dbda2ec9d6e8533ad72ac6412c9317811488dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee0100000000000000d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae690100000000000000439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f01000000000000005e639b43e0052c47447dac87d6fd2b6ec50bdd4d0f614e4299c665249bbd09d901000000000000001dfe3e22cc0d45c70779c1095f7489a8ef3cf52d62fbd8c2fa38c9f1723502b50100000000000000000000000000000000}, missing_tags: {}}    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker txpool: [0xfe490a83e97d05a27398b69f67278fef053b89f1e679eabfee2e0c23d869e898fb4569369226f4f101017a0de751e9608aa3d16010bf6cea3a91d25663ba44f7] Importing to ready    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker txpool: [0xfe490a83e97d05a27398b69f67278fef053b89f1e679eabfee2e0c23d869e898fb4569369226f4f101017a0de751e9608aa3d16010bf6cea3a91d25663ba44f7] Error importing: TooLowPriority { old: 2689954020286, new: 2689954020286 }    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_submitExtrinsic call took 826 μs    
+2022-12-16 05:02:15.252 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 93 μs    
+2022-12-16 05:02:15.253 TRACE tokio-runtime-worker txpool: [0xbd5dc65154ad4ad3a00abb6effd28b86741f2116faba681d204b97fa00d51c9a119c39dd80381b65c4a6b464e10111e18c15d07728e0f058875f8f7262c557cd] WaitingTransaction { imported_at: Instant { tv_sec: 23907001, tv_nsec: 921597598 }, transaction: Transaction { hash: 0xbd5dc65154ad4ad3a00abb6effd28b86741f2116faba681d204b97fa00d51c9a119c39dd80381b65c4a6b464e10111e18c15d07728e0f058875f8f7262c557cd, priority: 2689954020286, valid_till: 18446744073709551614, bytes: 882, propagate: true, source: TransactionSource::External, requires: [266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a00000000], provides: [266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a01000000], data: 84266c71f57e089ec9ae952537f7c52eea95a83ca9ade994a6e1ab584d52deb15a019ca55e358a35d53b6a7ff5230e7e51d39b08ac6b8428b9e3c2fa8a4c34e2c7368f0eaa456af5fdbe19819df21593faf527f80b19d63b935b1bfc717e3d289b8500040001000f01e07c46c2c940f73c0547e98a7cafe0b044e44274681359292d79ffbd95209d7404f9d1b39c8626e07f3c444947d4409711ee51d8fdd50be75e9e2812bdbab5c53ee521e12b7f848f5f09adef82638c62758f82036358ce30f93e668cd490267b2f100642414245b50103000000004cff99100000000056cda7c22e78ee330e526defd5c907f7adc0fe744a2f51ea5a4772eb6ba9223b6ffe00d5fdb6267dbf25d1a0b7472b91470286e4f9cba80b0871cea41890110ddf1fd3d473a2019313b8cf3744f7073855055536243768e5bc5fb2d8439790020442414245a9030114d43593c715fdd31c61141abd04a99fd6822c8558854ccde39a5684e7a56da27d01000000000000008eaf04151687736326c9fea17e25fc5287613693c912909cb226aa4794f26a48010000000000000090b5ab205c6974c9ea841be688864633dc9ca8a357843eeacf2314649965fe220100000000000000306721211d5404bd9da88e0204360a1a9ab8b87c66c1bc2fcdd37f3c2222cc200100000000000000e659a7a1628cdd93febc04a4e0646ea20e9f5f0ce097d9a05290d4a9e054df4e01000000000000000000000000000000000000000000000000000000000000000000000000000000044245454684036b90cc3aa9da56b66bba0aa9e4e6cda97efd85a54d261c0631a7625049f65c44054241424501017eee276be0e292cf332bd4c13eccd8e552451cfe4608c429009a49df7cc298070adb0d9490743d89255e95c68d33ec51dbda2ec9d6e8533ad72ac6412c9317811488dc3417d5058ec4b4503e0c12ea1a0a89be200fe98922423d4334014fa6b0ee0100000000000000d17c2d7823ebf260fd138f2d7e27d114c0145d968b5ff5006125f2414fadae690100000000000000439660b36c6c03afafca027b910b4fecf99801834c62a5e6006f27d978de234f01000000000000005e639b43e0052c47447dac87d6fd2b6ec50bdd4d0f614e4299c665249bbd09d901000000000000001dfe3e22cc0d45c70779c1095f7489a8ef3cf52d62fbd8c2fa38c9f1723502b50100000000000000000000000000000000}, missing_tags: {}}    
+2022-12-16 05:02:15.253 DEBUG tokio-runtime-worker txpool: [0xbd5dc65154ad4ad3a00abb6effd28b86741f2116faba681d204b97fa00d51c9a119c39dd80381b65c4a6b464e10111e18c15d07728e0f058875f8f7262c557cd] Importing to ready    
+2022-12-16 05:02:15.253 TRACE tokio-runtime-worker txpool: [0xbd5dc65154ad4ad3a00abb6effd28b86741f2116faba681d204b97fa00d51c9a119c39dd80381b65c4a6b464e10111e18c15d07728e0f058875f8f7262c557cd] Ready (replaced with None)    
+2022-12-16 05:02:15.253 DEBUG tokio-runtime-worker txpool: Pool Status: PoolStatus { ready: 3, ready_bytes: 3788, future: 0, future_bytes: 0 }    
+2022-12-16 05:02:15.253 DEBUG tokio-runtime-worker rpc_metrics: [ws] author_submitExtrinsic call took 377 μs    
+2022-12-16 05:02:15.253 TRACE tokio-runtime-worker txpool: [0xbd5dc65154ad4ad3a00abb6effd28b86741f2116faba681d204b97fa00d51c9a119c39dd80381b65c4a6b464e10111e18c15d07728e0f058875f8f7262c557cd] Broadcasted    
+2022-12-16 05:02:15.256 DEBUG tokio-runtime-worker beefy: 🥩 vote target - diff: 0, next_power_of_two: 1, target block: #5    
+2022-12-16 05:02:15.256 DEBUG tokio-runtime-worker beefy: 🥩 vote target - diff: 0, next_power_of_two: 1, target block: #5    
+--
+2022-12-16 05:11:54.831 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 100    
+2022-12-16 05:11:54.831 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x280d3bec27d785e602f215bc17244cf49b639a7d992df5e0298a051a5ccf063bab2fb31313efeb309351dd389fe4a3bd1228b51db6a9e04b3c29d7204395564a    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getBlockHash call took 111 μs    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x280d3bec27d785e602f215bc17244cf49b639a7d992df5e0298a051a5ccf063bab2fb31313efeb309351dd389fe4a3bd1228b51db6a9e04b3c29d7204395564a    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x280d3bec27d785e602f215bc17244cf49b639a7d992df5e0298a051a5ccf063bab2fb31313efeb309351dd389fe4a3bd1228b51db6a9e04b3c29d7204395564a    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #100, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 05:11:54.832  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #100 from    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #100 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 100    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getBlock call took 200 μs    
+2022-12-16 05:11:54.832 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x280d3bec27d785e602f215bc17244cf49b639a7d992df5e0298a051a5ccf063bab2fb31313efeb309351dd389fe4a3bd1228b51db6a9e04b3c29d7204395564a    
+2022-12-16 05:11:54.833 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #100    
+2022-12-16 05:11:54.833 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 100    
+2022-12-16 05:11:54.833 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x280d3bec27d785e602f215bc17244cf49b639a7d992df5e0298a051a5ccf063bab2fb31313efeb309351dd389fe4a3bd1228b51db6a9e04b3c29d7204395564a    
+2022-12-16 05:11:54.833 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #100    
+--
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: [0xedfbfbd3d5834ac97d7ec631b512df27087f8717a5307406a532c4297b71590876a759deead50b8dc28d945762fab646fa9ad07bbeef97121a5c403f10162f4a] Pruned at 0xfa348f2860147e7e0c090a22bcc27947eefa3c8827327ae7fbbdc0682b5f6889bdcb6d2a5c14d209e2f2bb17099d7f08684add91642ea14f20d80c215405aeb1    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: [0x28629f2d9cab2d3fb0e9b3ad530736f8094be84e0fe3a2249b92e4a07037bddfebbe4f50b1d2aba74677bd5a357e31f135de0389764d05e821bc8ea937cc269f] Pruned at 0xfa348f2860147e7e0c090a22bcc27947eefa3c8827327ae7fbbdc0682b5f6889bdcb6d2a5c14d209e2f2bb17099d7f08684add91642ea14f20d80c215405aeb1    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: [0xfffd58e78c0e18461595e5cdc0b1dafb0c842a4cdfb19ae12dc05c3c4ad7775bde927868e421606b3c53caefcb470df8edc64ebbf446bde05e29c74a3775d446] Pruned at 0xfa348f2860147e7e0c090a22bcc27947eefa3c8827327ae7fbbdc0682b5f6889bdcb6d2a5c14d209e2f2bb17099d7f08684add91642ea14f20d80c215405aeb1    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: [0x1e81037e71b593a0f26197fc1528c1f597b7382b8dacd88937bff56a51a9464eb3f24c93238c22d8261635280cb1b93a2143d755b07bba9cab202c2089d9decf] Pruned at 0xfa348f2860147e7e0c090a22bcc27947eefa3c8827327ae7fbbdc0682b5f6889bdcb6d2a5c14d209e2f2bb17099d7f08684add91642ea14f20d80c215405aeb1    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: Sent 1 transactions to revalidation queue    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker txpool: Updated revalidation queue at 249. Transactions: {0x27ec50d3a324c35c51ffffb81171b750668ab8c1e31940c6fc2a4fba1b98e5fc4b0f1a70da71afe8e8cd461a4d728ce5e45ee8df8d5c57ac5378e72d219293d0: 249}    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getFinalizedHead call took 4782 μs    
+2022-12-16 05:26:36.023 DEBUG tokio-runtime-worker rpc_metrics: [ws] system_health call took 9282 μs    
+2022-12-16 05:26:36.024 DEBUG      offchain-worker runtime::mmr::offchain: Nodes to canon for leaf 0: [0]    
+2022-12-16 05:26:36.024 DEBUG      offchain-worker runtime::mmr::offchain: Moved elem at pos 0 from key [12, 109, 109, 114, 0, 0, 0, 0, 0, 0, 0, 0, 22, 153, 80, 73, 31, 7, 71, 17, 193, 188, 225, 66, 133, 188, 227, 146, 144, 47, 217, 251, 93, 107, 28, 230, 183, 89, 104, 139, 203, 18, 40, 49, 131, 96, 25, 77, 140, 15, 142, 117, 168, 127, 116, 251, 158, 182, 129, 213, 208, 220, 198, 81, 239, 34, 250, 92, 156, 248, 137, 18, 236, 100, 210, 245] to canon key [12, 109, 109, 114, 0, 0, 0, 0, 0, 0, 0, 0]    
+2022-12-16 05:26:36.024 ERROR      offchain-worker runtime::mmr::offchain: Offchain: could not prune: no entry in pruning map for block 0    
+2022-12-16 05:26:36.029 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getBlockHash call took 280 μs    
+2022-12-16 05:26:36.029 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 298 μs    
+2022-12-16 05:26:36.030 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 243 μs    
+2022-12-16 05:26:36.030 DEBUG tokio-runtime-worker rpc_metrics: [ws] chain_getHeader call took 217 μs    
+2022-12-16 05:26:36.032 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_call call took 2041 μs    
+2022-12-16 05:26:36.036 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_getStorage call took 173 μs    
+2022-12-16 05:26:36.036 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_getStorage call took 553 μs    
+2022-12-16 05:26:36.037 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_getStorage call took 235 μs    
+2022-12-16 05:26:36.037 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_getStorage call took 92 μs    
+2022-12-16 05:26:36.038 DEBUG tokio-runtime-worker rpc_metrics: [ws] state_getStorage call took 66 μs    
+--
+2022-12-16 05:51:54.980 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.980 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #500    
+2022-12-16 05:51:54.980 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.980 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.980 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.981 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.981 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.981 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.981 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3").    
+2022-12-16 05:51:54.981 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb").    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #500, peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb") error: Refused    
+2022-12-16 05:51:54.982  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #500 from    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #500 from peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb")    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.982 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5").    
+2022-12-16 05:51:54.983 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.983 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.983 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #500, peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb") error: Refused    
+2022-12-16 05:51:54.984  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #500 from    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #500 from peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb")    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #500    
+2022-12-16 05:51:54.984  INFO tokio-runtime-worker beefy: 🥩 Round #500 concluded, finality_proof: V1(SignedCommitment { commitment: Commitment { payload: Payload([([109, 104], [129, 167, 143, 71, 109, 154, 241, 30, 49, 143, 176, 250, 87, 144, 206, 30, 203, 201, 202, 177, 236, 91, 88, 209, 202, 104, 135, 109, 201, 212, 148, 190])]), block_number: 500, validator_set_id: 10 }, signatures: [Some(Signature(61d3e86addcc00f3d5facc8f0ada60af19f054e86c4cce65981405d1caf60c1b79c3be097cb9aebad0394aa75b6e895dcba2fc50a24a3cd0e1f0e3a553f07d5600)), Some(Signature(309ae9c695dea0f0dad51c5d33ce0d4284eee1932a88eacb99ae08c2fafa60a95225476d2da2a5c39bc6fb464df0fd42243d10eff969a355e97fb974de8a292601)), Some(Signature(a018f99c444b311bd966f161739f2002eb39730aa15ae15ee245a48ffc3bbf55281c9a682e0f96c383b39c7b5df80c3cccf12146e15048a5e0ee0ec5394d5e2a00))] }).    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy: 🥩 Concluded round #500    
+2022-12-16 05:51:54.984 DEBUG tokio-runtime-worker beefy::sync: 🥩 cancel pending request for justification #500    
+--
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.805 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.806 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #850, peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5") error: Refused    
+2022-12-16 06:26:55.806  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #850 from    
+2022-12-16 06:26:55.806 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #850 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 06:26:55.806 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.806 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.806 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #850, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #850 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #850    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 850    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xf8ad2a9a114d79f44a05e201bf7dadec9de4471b576f743b91a15a730610ba55ff823e38bbb16e00ec5adb9afea2a2f4cfe52262123e4dd4a5935a1404e8ebae    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #850    
+2022-12-16 06:26:55.808 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #850    
+2022-12-16 06:26:55.808  INFO tokio-runtime-worker beefy: 🥩 Round #850 concluded, finality_proof: V1(SignedCommitment { commitment: Commitment { payload: Payload([([109, 104], [90, 47, 192, 95, 15, 114, 191, 77, 81, 222, 8, 14, 3, 145, 56, 35, 134, 194, 145, 135, 122, 163, 105, 163, 211, 165, 98, 94, 76, 166, 126, 11])]), block_number: 850, validator_set_id: 17 }, signatures: [Some(Signature(f89c8edfa5f5abdcd0289652386b99c6391d013ff77fdf764f9b065e2fc39c950c4c55e95b638905b94f96e30554079e2596728a2cea805556f3b8bb55e4b21a01)), Some(Signature(87f5f96286a63dfc169104c6ea5f40bdea7df8fe9f10cc1e57bb6e4d86842be920fa10a2004128af4ef9540e18f284dcd9ae9cd336bed2b984fbda26de1c0e3901)), Some(Signature(a96585805952768770e21423f2601754b63fc71a5481df79ac89a0f8285c499e2b1d3cafcf3ff7dad43f360c089205c80ad8db57133a7791675c6745fe94c3df01))] }).    
+--
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.541 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.542 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1050, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 06:46:55.542  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1050 from    
+2022-12-16 06:46:55.542 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1050 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 06:46:55.542 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.542 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.542 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.547 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1050, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 06:46:55.547  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1050 from    
+2022-12-16 06:46:55.547 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1050 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 06:46:55.547 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.547 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.547 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+--
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.548 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1050, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 06:46:55.549  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1050 from    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1050 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xee4a72b1eae3a38b6d498b32ca682ed0db4f714433091a8d50abe015a5ebaa183de6911175fcafb3a61f5eb516435395f258fed624b80f30d6325d37894e097e    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #1050    
+2022-12-16 06:46:55.549  INFO tokio-runtime-worker beefy: 🥩 Round #1050 concluded, finality_proof: V1(SignedCommitment { commitment: Commitment { payload: Payload([([109, 104], [156, 95, 147, 149, 167, 70, 83, 54, 153, 165, 130, 90, 77, 102, 122, 198, 188, 117, 184, 89, 244, 84, 4, 227, 112, 62, 170, 103, 135, 240, 107, 34])]), block_number: 1050, validator_set_id: 21 }, signatures: [Some(Signature(7b4a2e0031c2f3a5aaa86c86f698dc70c99d28d5bb56e218bf9fe436f3c8eb8202c962a72140bca71d52b4047fffd253f9b8d5af86b31a315bb7c50600ed72fb00)), Some(Signature(ce7866426b8573a6e3ac2e6c1661ed7a35ff51e2fc5e3ccbf4176ee667f0321f1da9b3356f876eba2f30740def4b5c0c577a696f7d85d58e5df778037518bd7500)), Some(Signature(55956f54707bcf0d76030a4947943b1b760396807207c302c7a8f4101bf911616d90fe6a2aae91625115b4bcd2b5d4c46dd33de315e779b38be3bed29e1ca31e00))] }).    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy: 🥩 Concluded round #1050    
+2022-12-16 06:46:55.549 DEBUG tokio-runtime-worker beefy::sync: 🥩 cancel pending request for justification #1050    
+--
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x616a2159f578e4600b5c876407ebc06a52aeb46960a7e3c750a56f7669fab8162a52c3c4b2a2a19c075bd9e4f15f052f8d55f67160a2e425e7e1acbe38aca86c    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x616a2159f578e4600b5c876407ebc06a52aeb46960a7e3c750a56f7669fab8162a52c3c4b2a2a19c075bd9e4f15f052f8d55f67160a2e425e7e1acbe38aca86c    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1350    
+2022-12-16 07:16:55.711 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x616a2159f578e4600b5c876407ebc06a52aeb46960a7e3c750a56f7669fab8162a52c3c4b2a2a19c075bd9e4f15f052f8d55f67160a2e425e7e1acbe38aca86c    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1350, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 07:16:55.712  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1350 from    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1350 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1350    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1350    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x616a2159f578e4600b5c876407ebc06a52aeb46960a7e3c750a56f7669fab8162a52c3c4b2a2a19c075bd9e4f15f052f8d55f67160a2e425e7e1acbe38aca86c    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1350    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #1350    
+2022-12-16 07:16:55.712  INFO tokio-runtime-worker beefy: 🥩 Round #1350 concluded, finality_proof: V1(SignedCommitment { commitment: Commitment { payload: Payload([([109, 104], [175, 106, 252, 13, 174, 82, 116, 60, 13, 15, 39, 76, 148, 107, 164, 214, 186, 242, 32, 0, 168, 62, 19, 159, 197, 73, 170, 137, 144, 153, 208, 153])]), block_number: 1350, validator_set_id: 27 }, signatures: [Some(Signature(f54aaaf8d0ce664ef62a003ce3764694f7e1fea1af8406ac00378507b2b1ce7f5920a7659b31afbe45c548ac8c6d0565cd25b8f2bff3c8777700b85054807a5101)), Some(Signature(56871de814df988b424aacb125c8e2796092f45b00b523c05eabeee404725240148e5d23e0135f95a834b6e5533bcf80ec91d5f7fe1b134ae2c88b1fac9b7d0e01)), Some(Signature(fa75c649440602d3b4c2a1930bd0d4ee2a462e15c2e4d3b13f15a9a5cef53cf264edaf29493d513b78afe8ad6a3ecf83dc05ad883726ea1984cffe7984704c5301))] }).    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy: 🥩 Concluded round #1350    
+2022-12-16 07:16:55.712 DEBUG tokio-runtime-worker beefy::sync: 🥩 cancel pending request for justification #1350    
+--
+2022-12-16 07:31:54.873 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1500    
+2022-12-16 07:31:54.873 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1500    
+2022-12-16 07:31:54.873 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1500    
+2022-12-16 07:31:54.873 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1500, peer PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot") error: Refused    
+2022-12-16 07:31:54.875  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1500 from    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1500 from peer PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot")    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1500    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot").    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3").    
+2022-12-16 07:31:54.875 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1500    
+2022-12-16 07:31:54.876 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1500    
+2022-12-16 07:31:54.876 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1500    
+--
+2022-12-16 07:41:54.741 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1600    
+2022-12-16 07:41:54.741 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1600    
+2022-12-16 07:41:54.741 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1600    
+2022-12-16 07:41:54.741 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x1b62f813d6c1492ad956a39176a0952b4184da426375f664d2db44d3d8a984efa4d5219c4ec9cfe8821e28b5055690a505c4004c0b98d50e87b01a9113d840b9    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x1b62f813d6c1492ad956a39176a0952b4184da426375f664d2db44d3d8a984efa4d5219c4ec9cfe8821e28b5055690a505c4004c0b98d50e87b01a9113d840b9    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x1b62f813d6c1492ad956a39176a0952b4184da426375f664d2db44d3d8a984efa4d5219c4ec9cfe8821e28b5055690a505c4004c0b98d50e87b01a9113d840b9    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1600, peer PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot") error: Refused    
+2022-12-16 07:41:54.742  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1600 from    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1600 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x1b62f813d6c1492ad956a39176a0952b4184da426375f664d2db44d3d8a984efa4d5219c4ec9cfe8821e28b5055690a505c4004c0b98d50e87b01a9113d840b9    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1600    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x1b62f813d6c1492ad956a39176a0952b4184da426375f664d2db44d3d8a984efa4d5219c4ec9cfe8821e28b5055690a505c4004c0b98d50e87b01a9113d840b9    
+2022-12-16 07:41:54.742 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1600    
+--
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1700 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1700    
+2022-12-16 07:51:54.759 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot").    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5").    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #1700, peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5") error: Refused    
+2022-12-16 07:51:54.760  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #1700 from    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #1700 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #1700    
+2022-12-16 07:51:54.760  INFO tokio-runtime-worker beefy: 🥩 Round #1700 concluded, finality_proof: V1(SignedCommitment { commitment: Commitment { payload: Payload([([109, 104], [198, 100, 44, 93, 192, 208, 228, 49, 246, 180, 53, 10, 87, 123, 191, 220, 191, 72, 23, 166, 194, 91, 61, 239, 10, 135, 45, 161, 181, 81, 37, 114])]), block_number: 1700, validator_set_id: 34 }, signatures: [Some(Signature(d85df2eafef5f46922b0eebb789ab901e656c2439deac4421d3c308a374207453c3b588c662b3c9087371945f6cdc50de643810ab1f5b5b82bbddd2d7494230101)), Some(Signature(cc5c2551b185991b6c140ee71de633caef294610a8c73f9eb30d5b197a20c0841aa23712a3d3ff2f4bb226d4e899e3441ad3da35175e6a1376648a9048d27b0a00)), Some(Signature(09390f2a5c6005987f99e620eb9bf2bde9e61e19060a955708ae2c742272555109197dc3eebe546caf47daa395f6f0ebd0f9ce4310af3bd887f07a87cc0fa3c300))] }).    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy: 🥩 Concluded round #1700    
+2022-12-16 07:51:54.760 DEBUG tokio-runtime-worker beefy::sync: 🥩 cancel pending request for justification #1700    
+--
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #2350, peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3") error: Refused    
+2022-12-16 08:56:54.918  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #2350 from    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2350 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+2022-12-16 08:56:54.918 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2350    
+2022-12-16 08:56:54.919 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.919 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2350    
+2022-12-16 08:56:54.919 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+2022-12-16 08:56:54.919 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2350    
+2022-12-16 08:56:54.919 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xdfc26b6c01f19a6bcfc1e4a3b975fec078f49bedf2a8b2d2d221c933e2dcee53a253211692842d8348ef20c3c6e4796fd097b1b009f47caacc8f49d60327dacf    
+2022-12-16 08:56:54.920 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2350    
+--
+2022-12-16 09:16:55.055 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2550    
+2022-12-16 09:16:55.055 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xba50f3e6af0a7f1a78050b6b649e362710b400b358e099dfc032130346230f0b3fc46aba0c9e62a7e26c852f571e0b5e03121744c182377848ef948b2b0c352e    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xba50f3e6af0a7f1a78050b6b649e362710b400b358e099dfc032130346230f0b3fc46aba0c9e62a7e26c852f571e0b5e03121744c182377848ef948b2b0c352e    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2550    
+2022-12-16 09:16:55.056 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xba50f3e6af0a7f1a78050b6b649e362710b400b358e099dfc032130346230f0b3fc46aba0c9e62a7e26c852f571e0b5e03121744c182377848ef948b2b0c352e    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #2550, peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb") error: Refused    
+2022-12-16 09:16:55.057  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #2550 from    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2550 from peer PeerId("12D3KooWM5LFR5ne4yTQ4sBSXJ75M4bDo2MAhAW2GhL3i8fe5aRb")    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2550    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2550    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xba50f3e6af0a7f1a78050b6b649e362710b400b358e099dfc032130346230f0b3fc46aba0c9e62a7e26c852f571e0b5e03121744c182377848ef948b2b0c352e    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2550    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2550    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2550    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0xba50f3e6af0a7f1a78050b6b649e362710b400b358e099dfc032130346230f0b3fc46aba0c9e62a7e26c852f571e0b5e03121744c182377848ef948b2b0c352e    
+2022-12-16 09:16:55.057 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2550    
+--
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x72a777e76802638b4a5ca5b603b71abc38888ac5e86b51e5aab5aa50b0f4284a0b46e7907b0ac41eee8f6b8ab38cd9f8f15460ce76a896b65dfa06c9e9ca4f30    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x72a777e76802638b4a5ca5b603b71abc38888ac5e86b51e5aab5aa50b0f4284a0b46e7907b0ac41eee8f6b8ab38cd9f8f15460ce76a896b65dfa06c9e9ca4f30    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2600    
+2022-12-16 09:21:55.834 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x72a777e76802638b4a5ca5b603b71abc38888ac5e86b51e5aab5aa50b0f4284a0b46e7907b0ac41eee8f6b8ab38cd9f8f15460ce76a896b65dfa06c9e9ca4f30    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #2600, peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5") error: Refused    
+2022-12-16 09:21:55.835  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #2600 from    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2600 from peer PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3")    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2600    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2600    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x72a777e76802638b4a5ca5b603b71abc38888ac5e86b51e5aab5aa50b0f4284a0b46e7907b0ac41eee8f6b8ab38cd9f8f15460ce76a896b65dfa06c9e9ca4f30    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2600    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2600    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x72a777e76802638b4a5ca5b603b71abc38888ac5e86b51e5aab5aa50b0f4284a0b46e7907b0ac41eee8f6b8ab38cd9f8f15460ce76a896b65dfa06c9e9ca4f30    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2600    
+2022-12-16 09:21:55.835 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #2600    
+--
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x52939507a04ba7fe70d3a838528da580b7ca7824c4ff64f6b8ae6c5c929fc813432632a8fe84096f0d19608e4789afdbf2d57a898ccd888849bb21c581d11d54    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x52939507a04ba7fe70d3a838528da580b7ca7824c4ff64f6b8ae6c5c929fc813432632a8fe84096f0d19608e4789afdbf2d57a898ccd888849bb21c581d11d54    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2850    
+2022-12-16 09:46:55.635 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x52939507a04ba7fe70d3a838528da580b7ca7824c4ff64f6b8ae6c5c929fc813432632a8fe84096f0d19608e4789afdbf2d57a898ccd888849bb21c581d11d54    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #2850, peer PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot") error: Refused    
+2022-12-16 09:46:55.636  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #2850 from    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2850 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2850    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2850    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x52939507a04ba7fe70d3a838528da580b7ca7824c4ff64f6b8ae6c5c929fc813432632a8fe84096f0d19608e4789afdbf2d57a898ccd888849bb21c581d11d54    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2850    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2850    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 Missing validator id - can't vote for: 0x52939507a04ba7fe70d3a838528da580b7ca7824c4ff64f6b8ae6c5c929fc813432632a8fe84096f0d19608e4789afdbf2d57a898ccd888849bb21c581d11d54    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2850    
+2022-12-16 09:46:55.636 DEBUG tokio-runtime-worker beefy: 🥩 About to drop gossip round #2850    
+--
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2950 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 About to note gossip round #2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2950    
+2022-12-16 09:56:55.275 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 2950    
+2022-12-16 09:56:55.276 DEBUG tokio-runtime-worker beefy::sync: 🥩 for on demand justification #2950, peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5") error: Refused    
+2022-12-16 09:56:55.276  WARN tokio-runtime-worker beefy::sync: 🥩 ran out of peers to request justif #2950 from    
+2022-12-16 09:56:55.276 DEBUG tokio-runtime-worker beefy::sync: 🥩 requesting justif #2950 from peer PeerId("12D3KooWJAn2N7Loob24Zdb2nrcfKzSfj5aepDYnGu2SRd8GveG5")    
+2022-12-16 09:56:55.276 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2950    
+2022-12-16 09:56:55.276 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2950    
+2022-12-16 09:56:55.276 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 2950    
+2022-12-16 09:56:55.277 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWNTUkoNJuNALP4B5RC3kyREGNS1QHv9TpgVPUL48CH9z3").    
+2022-12-16 09:56:55.277 DEBUG tokio-runtime-worker beefy::sync: 🥩 Handled BEEFY justification request from PeerId("12D3KooWJTMeWg4ZucFBQ1syKP7USoZEhy3fRwJn35FSz4jUtdot").    
+2022-12-16 09:56:55.277 DEBUG tokio-runtime-worker beefy: 🥩 vote target - mandatory block: #2950    
+2022-12-16 09:56:55.277 DEBUG tokio-runtime-worker beefy: 🥩 Try voting on 2950    
+2022-12-16 09:56:55.277 DEBUG tokio-runtime-worker beefy: 🥩 Don't double vote for block number: 2950    

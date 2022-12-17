@@ -1,0 +1,30 @@
++ sleep 15
++ MESSAGE_LANE=00000001
++ /home/user/substrate-relay relay-messages millau-to-rialto --lane 00000001 --source-host millau-node-bob --source-port 9944 --source-signer //Rialto.OutboundMessagesRelay.Lane00000001 --target-host rialto-node-bob --target-port 9944 --target-signer //Millau.InboundMessagesRelay.Lane00000001 --prometheus-host=0.0.0.0
+[1;38;5;8m2022-12-16 05:01:52 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Millau node at ws://millau-node-bob:9944
+[1;38;5;8m2022-12-16 05:01:52 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-12-16 05:01:52 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Failed to connect to Rialto node: RpcError(Transport(Error when opening the TCP socket: Connection refused (os error 111))). Going to retry in 10s
+[1;38;5;8m2022-12-16 05:02:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Connecting to Rialto node at ws://rialto-node-bob:9944
+[1;38;5;8m2022-12-16 05:02:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Starting Millau -> Rialto messages relay.
+	Millau relayer account id: 92f90098e9695f0f78639deaabd0e942ef467566ea4abd0544a707eaafb81034 (5FPQpNE1...)
+	Max messages in single transaction: 64
+	Max messages size in single transaction: 1310720
+	Max messages weight in single transaction: Weight(ref_time: 433304567333, proof_size: 433)
+	Tx mortality: None (~60m)/None (~60m)
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:02 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Rialto node: BridgePalletIsNotInitialized. Retrying in 0.653576124
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:02 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.547925231
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:07 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 0.805808891
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:12 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 1.49028982
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:12 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:12 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:17 +00[0m [1;38;5;9mERROR[0m [38;5;8mbridge[0m Error retrieving state from Millau node: BridgePalletIsNotInitialized. Retrying in 1.513029403
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:22 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced None of None nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:22 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:32 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:32 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:42 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:42 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:52 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:02:52 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:03:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Rialto::ReceivingConfirmationsDelivery -> Millau::ReceivingConfirmationsDelivery race
+[Millau_to_Rialto_MessageLane_00000001] [1;38;5;8m2022-12-16 05:03:02 +00[0m [38;5;10mINFO[0m [38;5;8mbridge[0m Synced Some(0) of Some(0) nonces in Millau::MessagesDelivery -> Rialto::MessagesDelivery race
